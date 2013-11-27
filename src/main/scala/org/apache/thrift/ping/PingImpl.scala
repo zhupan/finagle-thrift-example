@@ -1,7 +1,7 @@
 package org.apache.thrift.ping
 
-import org.apache.thrift.ping.generated.{PingRS, PingRQ, Ping}
 import com.twitter.util.Future
+import org.apache.thrift.generated.ping.{Ping, PingRQ, PingRS}
 
 class PingImpl extends Ping.FutureIface {
 

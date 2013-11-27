@@ -5,8 +5,8 @@ import java.net.InetSocketAddress
 import com.twitter.finagle.Service
 import com.twitter.finagle.thrift.{ThriftClientFramedCodec, ThriftClientRequest}
 import org.apache.thrift.protocol.TBinaryProtocol
-import org.apache.thrift.ping.generated.Ping
-import org.apache.thrift.ping.generated.Ping.FinagledClient
+import org.apache.thrift.generated.ping.Ping.FinagledClient
+import org.apache.thrift.generated.ping.Ping
 
 object PingClient {
 

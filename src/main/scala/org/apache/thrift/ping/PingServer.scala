@@ -1,10 +1,10 @@
 package org.apache.thrift.ping
 
-import org.apache.thrift.ping.generated.Ping
 import org.apache.thrift.protocol.TBinaryProtocol
 import com.twitter.finagle.builder.ServerBuilder
 import com.twitter.finagle.thrift.ThriftServerFramedCodec
 import java.net.InetSocketAddress
+import org.apache.thrift.generated.ping.Ping
 
 class PingServer {
 

@@ -1,6 +1,6 @@
 package org.apache.thrift.ping
 
-import org.apache.thrift.ping.generated.PingRQ
+import org.apache.thrift.generated.ping.PingRQ
 
 object PingClientTest {
 

@@ -1,4 +1,6 @@
-namespace java org.apache.thrift.ping.generated
+namespace java org.apache.thrift.generated.ping
+
+include "common.thrift"
 
 struct KeyValue{
     1: required string key,
@@ -24,5 +26,3 @@ struct PingRS{
 service Ping {
     PingRS ping(1:PingRQ rq)
 }
-
-

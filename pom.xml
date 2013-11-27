@@ -98,8 +98,10 @@
                         <thriftOpt>--finagle</thriftOpt>
                     </thriftOpts>
                     <dependencyIncludes>
-                        <include>event-logger-thrift</include>
+                        <include>common.thrift</include>
+                        <include>ping.thrift</include>
                     </dependencyIncludes>
+                    <language>scala</language>
                 </configuration>
                 <executions>
                     <execution>
